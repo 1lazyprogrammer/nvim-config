@@ -14,15 +14,6 @@ require('plugins.autocompletion')
 
 
 
-
-
-
-
-
-
-
-
-
 -- Colorscheme
 
 require('vscode').setup({
