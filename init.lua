@@ -1,9 +1,6 @@
 -- init.lua
 
--- Load LSP configurations
-require('plugins.lsp')
-
--- Load lazy loading configurations
+-- Needs to be Loaded first lazy loading configurations
 require('lazypackages.lazy')
 
 -- Load treesitter
@@ -11,7 +8,6 @@ require('plugins.treesitter')
 
 -- Load Autocompletion nvim-cmp
 require('plugins.autocompletion')
-
 
 
 -- Colorscheme
