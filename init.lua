@@ -19,3 +19,13 @@ require('vscode').setup({
 })
 -- load the theme without affecting devicon colors.
 vim.cmd.colorscheme "vscode"
+
+
+-- Other Configurtions ------------------------
+
+-- Enable absolute line numbers
+vim.wo.number = true
+
+-- Enable relative line numbers
+vim.wo.relativenumber = true
+
